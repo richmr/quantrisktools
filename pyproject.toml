@@ -24,7 +24,13 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "scipy",
+  "tqdm",
+  "pandas",
+]
 
 [project.urls]
 Documentation = "https://github.com/unknown/quantrisktools#readme"
