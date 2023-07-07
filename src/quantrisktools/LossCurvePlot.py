@@ -49,6 +49,8 @@ def calcLossExceedance(data, p, forplot = True):
 def moneyformat(x, pos):
     """
     Generic money formatter to help plot look nice
+
+    @param pos Not used but required to use the "FuncFormatter" from matplotlib
     """
     if (x < 1000):  return '$%1.0f' % x
     if (x < 10000): return '$%1.1fK' % (x/1000.0)
